@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Daily Check-In</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <script>
+    var today = new Date();
+    var y = today.getFullYear();
+    var m = today.getMonth() + 1;
+    var day = today.getDate();
+    var url = "https://docs.google.com/forms/d/e/1FAIpQLSfZybKCdvwPNUz9PL-ixAdrLGgvlNLg-A1Q6GxG5BCS4c8kbg/viewform?";
+    url += "entry.683336710=YES";
+    url += "&entry.1106814242=WSP";
+    url += "&entry.859886192=Adam+Dumas";
+    url += "&entry.672393073=Field+Inspector";
+    url += "&entry.1848301530=517-719-7294";
+    url += "&entry.902445725=Inspection";
+    url += "&entry.1048104444=AD";
+    url += "&entry.1399694695_hour=15";
+    url += "&entry.1399694695_minute=00";
+    url += "&entry.277596513_year=" + y;
+    url += "&entry.277596513_month=" + m;
+    url += "&entry.277596513_day=" + day;
+    url += "&entry.1728817538=YES";
+    url += "&entry.1416549034=YES";
+    url += "&entry.675495073=YES";
+    url += "&entry.2062833123=YES";
+    url += "&entry.1449015822=Not+Applicable";
+    url += "&entry.517233253=Not+Applicable";
+    url += "&entry.1472034735=Not+Applicable";
+    url += "&entry.1689544551=Not+Applicable";
+    window.location.href = url;
+  </script>
+</body>
+</html>
